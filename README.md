@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/trst/PaperWM-Vim-ish-Keybindings/master/p
 dconf reset -f /org/gnome/shell/extensions/paperwm/keybindings/
 
 # Load Vim-ish PaperWM Key Bindings
-cat dwm-ish-bindings.txt | dconf load /org/gnome/shell/extensions/paperwm/keybindings/
+cat paperwm-vim-ish-keybindings.txt | dconf load /org/gnome/shell/extensions/paperwm/keybindings/
 ```
 
 ## Restore Your Previous Key Bindings
